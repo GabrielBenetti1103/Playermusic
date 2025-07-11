@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benettify</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/Playerdemusica/style.css">
+</head>
+<body>
+  <div class="music-container">
+    <h4 id="playlist">Playlist</h4>
+    <img id="img" alt="Disc Cover." class="img"></img>
+    <audio id="audio"></audio>
+    <div id="embaixo-da-capa">
+    
+      <div id="song-info">
+       <div id="nomedamusica">Nome da Música</div>
+        <div id="nomedabanda" class="corleve">Nome do autor</div>
+    </div>
+    <!--Botão de Like-->
+    <button id="like" class="botoes corleve"><i class="bi bi-heart"></i></button>
+     </div>
+  <div id="progresscontainer">
+
+     <div id="barra-progresso">
+         <div id="progresso"></div>
+        </div>
+  </div>
+  <div id="timebox">
+      <div id="songtime">00:00:00</div>
+      <div id="totaltime">00:00:00</div>
+</div>
+        
+  <div id="botoes">
+        <button id="embaralhar" class="botoes"><i class="bi bi-shuffle"></i></button>
+        <button id="voltar" class="botoes botoesnav"><i class="bi bi-skip-start-fill"></i></button>
+        <button id="play" class="botoes botoesnav botoesbig"><i class="bi bi-play-circle-fill"></i></button>
+        <button id="pular" class="botoes botoesnav"><i class="bi bi-skip-end-fill"></i></button>
+        <button id="repetir" class="botoes"><i class="bi bi-repeat"></i></button>
+  </div>
+  </div>
+  <script src="/Playerdemusica/script.js"></script>
+</body>
+</html>
